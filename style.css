@@ -1,0 +1,50 @@
+body{
+    font-style: Verdana ;
+    font-family: Copperplate, Papyrus, fantasy;
+    background-color: antiquewhite;  
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dhoni{
+    padding: 20px;
+    font-size: small;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 100px; 
+}
+.msd{
+    padding-bottom: 20px;
+}
+
+.dhoni input{
+    padding: 5px;
+    width: 90%;
+    text-align: auto;
+}
+.button{
+    background-color: orange;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+}
+.button:hover{
+    background: red;
+    color: black;
+}
+textarea{
+    border: 1px solid green;
+    display: block;
+    max-width: 400px;
+    max-height: 80px;
+}
+i{
+    color: red;
+    font-weight: bolder;
+}

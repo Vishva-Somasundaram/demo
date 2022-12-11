@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATTERN</title>
+    <script src="https://kit.fontawesome.com/f233e0dc81.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="card">
+        <H1>Get In Touch</H1>
+        <p>Ask away, we can get chatty but we are full of ideas and solution</p>
+        <form class="dhoni">
+            <div class="msd">
+            <Label>Name</Label>
+            <input type="text" name="name" pattern="^[a-zA-Z]+$" placeholder="Full Name" required id="name"></div>
+            <div class="msd">
+            <Label>Mobile Number</Label>
+            <input type="tel" name="pno"placeholder="+91 9876543210" required id="mobile"></div>
+            <div class="msd">
+            <Label>Email ID</Label>
+            <input type="email" name="mail"placeholder="xyz@gmail.com" required id="mail"></div>
+            <div class="msd">
+            <Label>Subject</Label>
+            <input type="text" name="sub" placeholder="Subject" required id="subject"></div>
+            <div class="msd">
+            <Label>Password</Label>
+            <input type="password" name="password"placeholder="8 digit password" required maxlength="8" id="password"></div>
+            <div class="msd">
+            <Label>Message</Label>
+            <textarea name="Message" placeholder="Message" id="message"></textarea></div>
+            <input type="submit" name="Send Details" class="button" id="btn" target="blank">
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
