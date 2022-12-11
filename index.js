@@ -5,12 +5,12 @@ var mobileNo = document.getElementById('mobile')
 document.getElementById('mobile').addEventListener('input',phoneValidation)
 
 var mailId = document.getElementById('mail')
-document.getElementById('mail').addEventListener('keyup',validateEmail)
+document.getElementById('mail').addEventListener('change',validateEmail)
 
 var subject = document.getElementById('subject')
 
 var password = document.getElementById('password')
-document.getElementById('password').addEventListener('keyup',validatePassword)
+document.getElementById('password').addEventListener('change',validatePassword)
 
 var msg = document.getElementById('message')
 
